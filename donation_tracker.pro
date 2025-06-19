@@ -21,3 +21,4 @@ SOURCES += main.cpp
 HEADERS += donation_tracker.h
 LIBS += -lsqlite3
 QMAKE_CXXFLAGS += -fPIC
+DEFINES += APP_VERSION=\\\"0.1.0\\\"
